@@ -1,38 +1,62 @@
-import java.util.*;
-import java.io.*;
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
+import java.util.Scanner;
 
 public class pi {
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static StringTokenizer st;
-    public static void main(String[] args) throws IOException {
-      BigDecimal big = new BigDecimal(22.0);
-	    BigDecimal big2 = new BigDecimal(7.0);
 
-      System.out.println("To how many decimal places do you want to print PI?");
-		  int n = readInt();
-		
-		  if (n < 32627) {
-			  System.out.println(b1.divide(b2, n, BigDecimal.ROUND_UP));
-		  else
-			  System.out.println("Limit exceeded !!!");
-    } static String next () throws IOException {
-        while (st == null || ! st.hasMoreTokens())
-            st = new StringTokenizer(br.readLine().trim());
-        return st.nextToken();
+    public static BigDecimal computePi(int digits) {
+        
+        MathContext mc = new MathContext(digits + 5, RoundingMode.HALF_UP);
+
+        BigDecimal sum = BigDecimal.ZERO;
+        BigDecimal C = new BigDecimal("426880").multiply(sqrt(new BigDecimal("10005"), mc));
+
+        for (int k = 0; k < 20; k++) { // Increase if more precision is needed
+            BigDecimal numerator = factorial(6 * k).multiply(new BigDecimal(545140134 * k + 13591409));
+            BigDecimal denominator = factorial(3 * k)
+                    .multiply(factorial(k).pow(3))
+                    .multiply(BigDecimal.valueOf(-262537412640768000L).pow(k));
+
+            sum = sum.add(numerator.divide(denominator, mc));
+        }
+
+        BigDecimal pi = C.divide(sum, mc);
+        return pi.round(new MathContext(digits, RoundingMode.HALF_UP));
     }
-    static long readLong () throws IOException {
-        return Long.parseLong(next());
+
+    public static BigDecimal sqrt(BigDecimal A, MathContext mc) {
+        BigDecimal x0 = new BigDecimal("0");
+        BigDecimal x1 = new BigDecimal(Math.sqrt(A.doubleValue()));
+        while (!x0.equals(x1)) {
+            x0 = x1;
+            x1 = A.divide(x0, mc);
+            x1 = x1.add(x0);
+            x1 = x1.divide(BigDecimal.valueOf(2), mc);
+        }
+        return x1;
     }
-    static int readInt () throws IOException {
-        return Integer.parseInt(next());
+
+    public static BigDecimal factorial(int n) {
+        BigDecimal result = BigDecimal.ONE;
+        for (int i = 2; i <= n; i++) {
+            result = result.multiply(BigDecimal.valueOf(i));
+        }
+        return result;
     }
-    static double readDouble () throws IOException {
-        return Double.parseDouble(next());
-    }
-    static char readCharacter () throws IOException {
-        return next().charAt(0);
-    }  
-    static String readLine () throws IOException {
-        return br.readLine().trim();
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of decimal places (max depends on RAM): ");
+        int n = sc.nextInt();
+        sc.close();
+
+        if (n > 10000) {
+            System.out.println("Warning: High values will require LOTS of memory and time!");
+        }
+
+        BigDecimal pi = computePi(n);
+        System.out.println("\nPi to " + n + " digits:");
+        System.out.println(pi);
     }
 }
