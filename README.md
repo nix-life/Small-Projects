@@ -12,6 +12,12 @@ Many projects that I have made are found online and are very common
 ## Projects
 Below are in-progress and finished projects.
 
-### 1.1 [Find PI to the Nth Digit](https://github.com/nix-life/Small-Projects/blob/main/numbers/pi.java)
+### 1. Numbers
+
+#### 1.1 [Find PI to the Nth Digit](https://github.com/nix-life/Small-Projects/blob/main/numbers/pi.java)
 Enter a number and have the program generate PI up to that many decimal
 places. Keep a limit to how far the program will go.
+
+#### 1.2 [Fibonacci Sequence](https://github.com/nix-life/Small-Projects/blob/main/numbers/fibonacci.java)
+Enter a number and have the program generate the Fibonacci sequence to that
+number or to the Nth number.
