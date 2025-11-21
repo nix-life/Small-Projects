@@ -1,0 +1,13 @@
+import qrcode
+
+url = input("Please enter your URL: ").strip()
+
+file_path = 'C:\\Users\\ABCDEFG\\Desktop\\qrcode.png' # Enter file path and the name you want to enter here
+
+qr = qrcode.QRCode()
+qr.add_data(url)
+
+img = qr.make_image()
+img.save(file_path)
+
+print("QR Code was generated.")
