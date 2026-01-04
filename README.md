@@ -25,3 +25,7 @@ number or to the Nth number.
 #### 1.3 [Prime Factorization](https://github.com/nix-life/Small-Projects/blob/main/numbers/prime_factorization.java)
 Have the user enter a number and find all Prime Factors (if there are any) and
 display them.
+
+#### 1.4 Next Prime Number (WIP)
+Have the program find prime numbers until the user chooses to stop the asking
+for the next one
