@@ -26,6 +26,6 @@ number or to the Nth number.
 Have the user enter a number and find all Prime Factors (if there are any) and
 display them.
 
-#### 1.4 Next Prime Number (WIP)
+#### 1.4 Next Prime Number ([WIP](https://github.com/nix-life/Small-Projects/blob/main/numbers/next_prime_number.cpp))
 Have the program find prime numbers until the user chooses to stop the asking
-for the next one
+for the next one.
