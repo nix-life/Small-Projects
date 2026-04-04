@@ -29,3 +29,7 @@ display them.
 #### 1.4 [Next Prime Number](https://github.com/nix-life/Small-Projects/blob/main/numbers/next_prime_number.cpp)
 Have the program find prime numbers until the user chooses to stop the asking
 for the next one.
+
+#### 1.5 [Find Cost of Tile to Cover W x H Floor]()
+Calculate the total cost of tile it would take to cover a floor plan of width and
+height, using a cost entered by the user.
