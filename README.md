@@ -33,3 +33,8 @@ for the next one.
 #### 1.5 [Find Cost of Tile to Cover W x H Floor](https://github.com/nix-life/Small-Projects/blob/main/numbers/floor_tile_cost.cpp)
 Calculate the total cost of tile it would take to cover a floor plan of width and
 height, using a cost entered by the user.
+
+#### 1.6 [Mortgage Calculator](https://github.com/nix-life/Small-Projects/blob/main/numbers/mortgage_calculator.cpp)
+Calculate the monthly payments of a fixed term mortgage over given Nth terms
+at a given interest rate. Also figure out how long it will take the user to pay
+back the loan.
