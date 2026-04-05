@@ -6,6 +6,7 @@ The user enters a cost and then the amount of money given. The program will figu
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 int main() {
     double cost, given;
@@ -16,35 +17,33 @@ int main() {
     std::cout << "Enter the amount given: " << "\n";
     std::cin >> given;
 
-    double remaining = given - cost;
-    double change = remaining - std::floor(remaining);
+    if (given < cost) {
+        std::cout << "Insufficient payment. You still owe $" << std::fixed << std::setprecision(2) << (cost - given) << ".";
+        return 0;
+    }
+
+    int remainingCents = static_cast<int>(std::llround((given - cost) * 100.0));
+    int coinCents = remainingCents % 100;
 
     int quarters = 0;
     int dimes = 0;
     int nickels = 0;
     int pennies = 0;
 
-    while (change >= 0.25) {
-        quarters++;
-        change-=0.25;
-    }
+    quarters = coinCents / 25;
+    coinCents %= 25;
 
-    while (change >= 0.1) {
-        dimes++;
-        change-=0.1;
-    }
+    dimes = coinCents / 10;
+    coinCents %= 10;
 
-    while (change >= 0.05) {
-        nickels++;
-        change-=0.05;
-    }
+    nickels = coinCents / 5;
+    coinCents %= 5;
 
-    while (change >= 0.01) {
-        pennies++;
-        change-=0.01;
-    }
+    pennies = coinCents;
 
-    std::cout << "You will be given back $" << remaining << ", with " << quarters << " quarters, " << dimes << " dimes, " << nickels << " nickels, and " << pennies << " pennies.";
+    std::cout << "You will be given back $" << std::fixed << std::setprecision(2) << (remainingCents / 100.0)
+              << ", with " << quarters << " quarters, " << dimes << " dimes, " << nickels
+              << " nickels, and " << pennies << " pennies.";
     
     return 0;
 }
