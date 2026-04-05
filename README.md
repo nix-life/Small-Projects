@@ -56,3 +56,7 @@ added complexity
 Converts various units between one another. The user enters the type of unit
 being entered, the type of unit they want to convert to and then the value. The
 program will then make the conversion. (This version is temperature)
+
+#### 1.11 [Alarm Clock](https://github.com/nix-life/Small-Projects/blob/main/numbers/alarm.cpp)
+A simple clock where it plays a sound after X number of minutes/seconds or at
+a particular time.
