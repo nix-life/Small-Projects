@@ -43,3 +43,7 @@ back the loan.
 The user enters a cost and then the amount of money given. The program will
 figure out the change and the number of quarters, dimes, nickels, pennies needed
 for the change.
+
+#### 1.8 [Binary to Decimal and Back Converter](https://github.com/nix-life/Small-Projects/blob/main/numbers/binary_decimal_converter.cpp)
+Converter to convert a decimal number to binary or a binary number to its
+decimal equivalent.
