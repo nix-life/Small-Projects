@@ -52,7 +52,7 @@ decimal equivalent.
 A simple calculator to do basic operators. Make it a scientific calculator for
 added complexity
 
-#### 1.10 [Unit Converter (temp, currency, volume, mass and more)](WIP)
+#### 1.10 [Unit Converter (temp, currency, volume, mass and more)](https://github.com/nix-life/Small-Projects/blob/main/numbers/unit_converter_temperature.cpp)
 Converts various units between one another. The user enters the type of unit
 being entered, the type of unit they want to convert to and then the value. The
 program will then make the conversion. (This version is temperature)
