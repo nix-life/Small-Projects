@@ -38,3 +38,8 @@ height, using a cost entered by the user.
 Calculate the monthly payments of a fixed term mortgage over given Nth terms
 at a given interest rate. Also figure out how long it will take the user to pay
 back the loan.
+
+#### 1.7 [Change Return Program](https://github.com/nix-life/Small-Projects/blob/main/numbers/change_return.cpp)
+The user enters a cost and then the amount of money given. The program will
+figure out the change and the number of quarters, dimes, nickels, pennies needed
+for the change.
