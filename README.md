@@ -80,5 +80,5 @@ Create a program that finds the shortest path through a graph using its edges.
 
 ### 2. Text
 
-#### 2.1 [Reverse a String]() *WORK IN PROGRESS*
+#### 2.1 [Reverse a String](https://github.com/nix-life/Small-Projects/blob/main/text/reverse_string.cpp)
 Enter a string and the program will reverse it and print it out.
