@@ -66,3 +66,4 @@ Calculates the distance between two cities and allows the user to specify a unit
 of distance. This program may require finding coordinates of the cities like latitude and longitude.
 
 Notes: Unit of distance not implemented, coordinates found are based on csv file in data
+Credit to bahar for the [data](https://github.com/bahar/WorldCityLocations/tree/master)
