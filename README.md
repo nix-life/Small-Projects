@@ -66,3 +66,19 @@ Calculates the distance between two cities and allows the user to specify a unit
 of distance. This program may require finding coordinates of the cities like latitude and longitude.
 
 Notes: Unit of distance not implemented, coordinates found are based on csv file in data; Credit to bahar for the [data](https://github.com/bahar/WorldCityLocations/tree/master)
+
+#### 1.13 [Credit Card Validator]() *WORK IN PROGRESS*
+Takes in a credit card number of a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a
+valid number (look into how credit cards use a checksum).
+
+#### 1.14 [Tax Calculator] *WORK IN PROGRESS*
+Asks the user to enter a cost and either a country or state tax. It then returns
+the tax plus the total cost with tax.
+
+#### 1.15 [Dijkstras Algorithm]() *WORK IN PROGRESS*
+Create a program that finds the shortest path through a graph using its edges.
+
+### 2. Text
+
+#### 2.1 [Reverse a String]() *WORK IN PROGRESS*
+Enter a string and the program will reverse it and print it out.
