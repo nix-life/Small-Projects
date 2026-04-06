@@ -60,3 +60,9 @@ program will then make the conversion. (This version is temperature)
 #### 1.11 [Alarm Clock](https://github.com/nix-life/Small-Projects/blob/main/numbers/alarm.cpp)
 A simple clock where it plays a sound after X number of minutes/seconds or at
 a particular time.
+
+#### 1.12 [Distance Between Two Cities](https://github.com/nix-life/Small-Projects/blob/main/numbers/city_distance.cpp)
+Calculates the distance between two cities and allows the user to specify a unit
+of distance. This program may require finding coordinates of the cities like latitude and longitude.
+
+Notes: Unit of distance not implemented, coordinates found are based on csv file in data
