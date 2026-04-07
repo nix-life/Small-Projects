@@ -102,7 +102,7 @@ added complexity have it report a sum of each vowel found.
 Checks if the string entered by the user is a palindrome. That is that it reads
 the same forwards as backwards like racecar
 
-#### 2.5 [Count Words in a String]() *WIP*
+#### 2.5 [Count Words in a String](https://github.com/nix-life/Small-Projects/blob/main/text/count_words.cpp)
 Counts the number of individual words in a string. For added complexity read
 these strings in from a text file and generate a summary.
 
