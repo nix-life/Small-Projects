@@ -108,7 +108,7 @@ these strings in from a text file and generate a summary.
 
 Note: Added complexity not yet implemented
 
-#### 2.6 [Text Editor]() *WIP*
+#### 2.6 [Text Editor](https://github.com/nix-life/Small-Projects/tree/main/text/text-editor)
 Notepad style application that can open, edit, and save text documents. Add
 syntax highlighting and other features.
 
