@@ -67,9 +67,9 @@ of distance. This program may require finding coordinates of the cities like lat
 
 Notes: Unit of distance not implemented, coordinates found are based on csv file in data; Credit to bahar for the [data](https://github.com/bahar/WorldCityLocations/tree/master)
 
-#### 1.13 [Credit Card Validator]() *WORK IN PROGRESS*
+#### 1.13 [Credit Card Validator](https://github.com/nix-life/Small-Projects/blob/main/numbers/credit_card_validator.cpp)
 Takes in a credit card number of a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a
-valid number (look into how credit cards use a checksum).
+valid number (look into how credit cards use a checksum). Utilizes luhn's algorithm to find a valid combination.
 
 #### 1.14 [Tax Calculator] *WORK IN PROGRESS*
 Asks the user to enter a cost and either a country or state tax. It then returns
