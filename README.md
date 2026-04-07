@@ -98,7 +98,7 @@ anana-bay). Read Wikipedia for more information on rules.
 Enter a string and the program counts the number of vowels in the text. For
 added complexity have it report a sum of each vowel found.
 
-#### 2.4 [Check if Palindrome]() *WIP*
+#### 2.4 [Check if Palindrome](https://github.com/nix-life/Small-Projects/blob/main/text/check_palindrome.cpp)
 Checks if the string entered by the user is a palindrome. That is that it reads
 the same forwards as backwards like racecar
 
