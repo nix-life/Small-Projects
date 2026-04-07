@@ -52,10 +52,14 @@ decimal equivalent.
 A simple calculator to do basic operators. Make it a scientific calculator for
 added complexity
 
+Note: Currently only basic operations, scientific calculator can be implemented later
+
 #### 1.10 [Unit Converter (temp, currency, volume, mass and more)](https://github.com/nix-life/Small-Projects/blob/main/numbers/unit_converter_temperature.cpp)
 Converts various units between one another. The user enters the type of unit
 being entered, the type of unit they want to convert to and then the value. The
-program will then make the conversion. (This version is temperature)
+program will then make the conversion.
+
+Note: This version is temperature; possible further improvements could include choosing unit conversion
 
 #### 1.11 [Alarm Clock](https://github.com/nix-life/Small-Projects/blob/main/numbers/alarm.cpp)
 A simple clock where it plays a sound after X number of minutes/seconds or at
@@ -74,6 +78,8 @@ valid number (look into how credit cards use a checksum). Utilizes luhn's algori
 #### 1.14 [Tax Calculator](https://github.com/nix-life/Small-Projects/blob/main/numbers/tax_calculator.cpp)
 Asks the user to enter a cost and either a country or state tax. It then returns
 the tax plus the total cost with tax.
+
+Note: Improvement could include choice of tax expanded to country and/or state/province.
 
 #### 1.15 [Dijkstras Algorithm](https://github.com/nix-life/Small-Projects/blob/main/numbers/dijkstra.cpp)
 Create a program that finds the shortest path through a graph using its edges.
@@ -99,6 +105,8 @@ the same forwards as backwards like racecar
 #### 2.5 [Count Words in a String]() *WIP*
 Counts the number of individual words in a string. For added complexity read
 these strings in from a text file and generate a summary.
+
+Note: Added complexity not yet implemented
 
 #### 2.6 [Text Editor]() *WIP*
 Notepad style application that can open, edit, and save text documents. Add
