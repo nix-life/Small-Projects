@@ -206,7 +206,6 @@ int main() {
     }
     */
 
-
     // Input and city lookup
     std::string city1Input, city2Input;
     std::string unit;
