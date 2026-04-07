@@ -71,7 +71,7 @@ Notes: Unit of distance not implemented, coordinates found are based on csv file
 Takes in a credit card number of a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a
 valid number (look into how credit cards use a checksum). Utilizes luhn's algorithm to find a valid combination.
 
-#### 1.14 [Tax Calculator] *WORK IN PROGRESS*
+#### 1.14 [Tax Calculator](https://github.com/nix-life/Small-Projects/blob/main/numbers/tax_calculator.cpp)
 Asks the user to enter a cost and either a country or state tax. It then returns
 the tax plus the total cost with tax.
 
