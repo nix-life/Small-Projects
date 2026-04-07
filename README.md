@@ -75,7 +75,7 @@ valid number (look into how credit cards use a checksum). Utilizes luhn's algori
 Asks the user to enter a cost and either a country or state tax. It then returns
 the tax plus the total cost with tax.
 
-#### 1.15 [Dijkstras Algorithm]() *WORK IN PROGRESS*
+#### 1.15 [Dijkstras Algorithm](https://github.com/nix-life/Small-Projects/blob/main/numbers/dijkstra.cpp)
 Create a program that finds the shortest path through a graph using its edges.
 
 ### 2. Text
