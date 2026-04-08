@@ -119,3 +119,19 @@ news format for syndication.
 #### 2.8 [Post it Notes Program]() *WIP*
 A program where you can add text reminders and post them. You can have the
 program also add popup reminders.
+
+### 3. Networking
+
+### 4. Classes
+
+### 5. Threading
+
+### 6. Web
+
+### 7. Files
+
+### 8. Databases
+
+### 9. Graphics and Multimedia
+
+### 10. Games
