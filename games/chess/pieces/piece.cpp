@@ -6,5 +6,7 @@ struct Position {
 }
 
 class Piece {
-
+    std::string name;
+    std::pair<int, int> position;
+    int value;
 }
