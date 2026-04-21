@@ -124,6 +124,9 @@ program also add popup reminders.
 
 ### 4. Classes
 
+#### 4.13 [Matrix Class]() *WIP*
+A class to manage matrices. Add, subtract and multiple matrices.
+
 ### 5. Threading
 
 ### 6. Web
